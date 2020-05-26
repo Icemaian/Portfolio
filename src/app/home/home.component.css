@@ -1,0 +1,39 @@
+.bullets {
+    color: #FFE4E1;
+    text-decoration: none;
+}
+
+.Title {
+    text-align: center;
+    font-size: 24px;
+    text-shadow:  2px 2px 5px black;
+    color: ivory;
+    overflow: auto;
+    text-decoration: none;
+}
+
+.right {
+    position: absolute;
+    right: 5%;
+    color: #FFE4E1;
+    text-decoration: none;
+    outline-color: #024249;
+}
+
+.left {
+    position: absolute;
+    left: 5%;
+    color: #FFE4E1;
+    text-decoration: none;
+    outline-color: #024249;
+}
+
+.portrait {
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list {
+   padding-top : 2%;
+}
