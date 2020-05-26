@@ -13,11 +13,11 @@ import { ResumeComponent } from './resume/resume.component';
 
 
 const route: Routes = [
-  { path: 'About', component: AboutComponent},
-  { path: 'Projects', component: ProjectsComponent},
-  { path: 'Resume', component: ResumeComponent},
-  { path: '', component: HomeComponent},
-  { path: 'Home', component: HomeComponent}
+  { path: 'Portfolio/About', component: AboutComponent},
+  { path: 'Portfolio/Projects', component: ProjectsComponent},
+  { path: 'Portfolio/Resume', component: ResumeComponent},
+  { path: 'Portfolio/', component: HomeComponent},
+  { path: 'Portfolio/Home', component: HomeComponent}
 ];
 
 
