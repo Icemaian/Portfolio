@@ -16,7 +16,7 @@ const route: Routes = [
   { path: 'About', component: AboutComponent},
   { path: 'Projects', component: ProjectsComponent},
   { path: 'Resume', component: ResumeComponent},
-  { path: '', component: HomeComponent},
+  { path: 'Portfolio', component: HomeComponent},
   { path: 'Home', component: HomeComponent}
 ];
 
