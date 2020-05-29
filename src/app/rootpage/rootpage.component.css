@@ -7,19 +7,19 @@
     left: 0.5%;
     right: 0.5%;
     overflow: hidden;
-    background-color: #16817a;
+    background-color: #4F6D7A;
     opacity:0.8;
     box-shadow: 2px 2px;
     outline-style: solid;
     position: fixed;
-    outline-color: #024249;
+    outline-color: #E8DAB2;
 }
 
 /* Header Links */
 .header a {
     float: left;
     text-shadow:  2px 2px 5px black;
-    color: #FFE4E1;
+    color: Ivory;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -38,12 +38,13 @@
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
-  color: #FFFFFF;
+  color: ivory;
+  
 }
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active, .header a:hover{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  background-color: #778899;
+  background-color: #DD6E42;
 }
   
 .Title {
@@ -58,7 +59,8 @@
 .page {
     height: 100%;
     background-size: cover;
-    background-image: url(src\assets\img\pink-flowers-photograph-1083822.jpg);
+    background-color: #EAEAEA;
+    /* background-image: url(src\assets\img\marble.jpeg); */
 }
 
 .body {
@@ -72,8 +74,8 @@
     width: 90%;
     opacity:0.85;
     outline-style: solid;
-    outline-color: #024249 ;
-    background-color: #16817a;
+    outline-color: #E8DAB2 ;
+    background-color: #4F6D7A;
     box-shadow: 2px 2px;
     padding: 10px;
     color: ivory;
