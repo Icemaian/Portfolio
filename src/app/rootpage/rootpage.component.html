@@ -2,22 +2,15 @@
 <div class="page">
 
   <nav class="navbar navbar-inverse header">
-    <div class="container-fluid">      
-            <ul class="nav navbar-nav">
-              <li><a class="hvr-grow" href="Home">Intro</a></li>
-              <li><a class="hvr-grow" href="Resume">Resume</a></li>
-              <li><a class="hvr-grow" href="Projects">Projects</a></li>
-              <li><a class="hvr-grow" href="About">About</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a class="hvr-grow" href="mailto: Isaac_Michael_Craig@hotmail.com" ><span class="glyphicon glyphicon-envelope icon" ></span>  Email</a></li>
-              <li><a class="hvr-grow" href="https://www.linkedin.com/in/isaac-craig"  rel="noopener noreferrer" target="_blank"><span><img src = "assets\img\LI-In-Bug.png" width="25" height="25"></span>    LinkedIn</a></li>
-              <li><a class="hvr-grow" href="https://github.com/Icemaian" rel="noopener noreferrer" target="_blank"><span><img src = "assets\img\GitHub-Mark-Light-64px.png" width="25" height="25"></span>  Github</a></li>
-            </ul>
-    </div>
+              <a class="hvr-grow" href="Intro">Intro</a>
+              <a class="hvr-grow" href="Resume">Resume</a>
+              <a class="hvr-grow" href="Projects">Projects</a>
+              <a class="hvr-grow" href="About">About</a> <a class="hvr-grow" href="mailto: Isaac_Michael_Craig@hotmail.com" ><span class="glyphicon glyphicon-envelope icon" ></span>  Email</a>
+              <a class="hvr-grow" href="https://www.linkedin.com/in/isaac-craig"  rel="noopener noreferrer" target="_blank"><span><img src = "assets\img\LI-In-Bug.png" width="25" height="25"></span>    LinkedIn</a>
+              <a class="hvr-grow" href="https://github.com/Icemaian" rel="noopener noreferrer" target="_blank"><span><img src = "assets\img\GitHub-Mark-Light-64px.png" width="25" height="25"></span>  Github</a>
   </nav>
- 
-  <div class="body">
-   <router-outlet> </router-outlet>
+  <div [@routeAnimations]="o && o.activatedRouteData 
+      && o.activatedRouteData['animation']">
+    <router-outlet #o="outlet"></router-outlet>
   </div>
 </div>

@@ -22,17 +22,28 @@
 
 .left {
     position: absolute;
-    left: 5%;
+    background-color: #2C3335;
+    left: 1%;
+    width: 40%;
+    height: 85%;
+    top: 9%;
     color: #FFE4E1;
     text-decoration: none;
-    outline-color: #024249;
+    outline-color: #A4B0BD;
+    box-shadow: 2px 2px;
+    outline-style: solid;
 }
 
-.portrait {
-    border: 1px solid #ddd;
+div.portrait {
+    width: 25%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
 
 .list {
    padding-top : 2%;

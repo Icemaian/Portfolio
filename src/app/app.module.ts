@@ -1,9 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { Routes, RouterModule } from '@angular/router'
+import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import { AppComponent } from './app.component';
 import { RootpageComponent } from './rootpage/rootpage.component';
 import { HomeComponent } from './home/home.component';
@@ -13,11 +11,11 @@ import { ResumeComponent } from './resume/resume.component';
 
 
 const route: Routes = [
-  { path: 'About', component: AboutComponent},
-  { path: 'Projects', component: ProjectsComponent},
-  { path: 'Resume', component: ResumeComponent},
-  { path: 'Portfolio', component: HomeComponent},
-  { path: 'Home', component: HomeComponent}
+  { path: 'About', component: AboutComponent, data: {animation: 'About'}},
+  { path: 'Projects', component: ProjectsComponent, data: {animation: 'Projects'}},
+  { path: 'Resume', component: ResumeComponent, data: {animation: 'Resume'}},
+  { path: '', component: HomeComponent, data: {animation: 'Home'}},
+  { path: 'Intro', component: HomeComponent, data: {animation: 'Home'}}
 ];
 
 

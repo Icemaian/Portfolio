@@ -2,33 +2,35 @@
 
 /* Header background  */
 .header { 
-    width: 99%;
+    position: fixed;
+    width: 6.5%;
+    height: 98%;
     top: 1%;
     left: 0.5%;
     right: 0.5%;
-    overflow: hidden;
-    background-color: #4F6D7A;
-    opacity:0.8;
+    align-content: center;
+    background-color: #2C3335;
     box-shadow: 2px 2px;
     outline-style: solid;
-    position: fixed;
-    outline-color: #E8DAB2;
+    outline-color: #A4B0BD;
+    
 }
 
 /* Header Links */
 .header a {
     float: left;
     text-shadow:  2px 2px 5px black;
-    color: Ivory;
+    color: #888888;
     text-align: center;
-    padding: 12px;
+    padding: 10px;
     text-decoration: none;
     font-size: 18px;
-    line-height: 25px;
+    
   }
 
 /* Grow */
 .hvr-grow {
+  width: 100%;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -45,40 +47,14 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   background-color: #DD6E42;
-}
-  
-.Title {
-    text-align: center;
-    font-size: 24px;
-    text-shadow:  2px 2px 5px black;
-    color: ivory;
-    padding-top: 15px;
-    overflow: auto;
+  color: ivory;
 }
 
 .page {
     height: 100%;
     background-size: cover;
-    background-color: #EAEAEA;
-    /* background-image: url(src\assets\img\marble.jpeg); */
-}
+    background-color: #576574;
 
-.body {
-    position: absolute;
-    left: 5%;
-    top: 10%;
-    overflow: auto;
-    height: 89%;
-    margin: auto;
-    padding: 5px;
-    width: 90%;
-    opacity:0.85;
-    outline-style: solid;
-    outline-color: #E8DAB2 ;
-    background-color: #4F6D7A;
-    box-shadow: 2px 2px;
-    padding: 10px;
-    color: ivory;
 }
 
 .logo {

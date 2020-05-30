@@ -1,9 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { slideInAnimation } from 'src/app/rootpage/route-animations';
 
 @Component({
   selector: 'app-rootpage',
   templateUrl: './rootpage.component.html',
-  styleUrls: ['./rootpage.component.css']
+  styleUrls: ['./rootpage.component.css'],
+  animations: [ slideInAnimation ]
 })
 export class RootpageComponent implements OnInit {
 
@@ -12,7 +15,8 @@ export class RootpageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  getURL() {
-    return "url(IMCPortfolio\src\assets\img\fallen.jpg)";
+
+  prepareRoute(outlet: RouterOutlet) {
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
   }
 }
