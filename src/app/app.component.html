@@ -1,1 +1,15 @@
-<app-rootpage>Loading Root page...</app-rootpage>
+<!DOCTYPE html>
+
+  <nav class="navbar navbar-inverse header">
+    <a class="hvr-grow navbar-link is-arrowless" routerLink="/Intro">Intro</a>
+    <a class="hvr-grow" href="Resume">Resume</a>
+    <a class="hvr-grow navbar-link is-arrowless" routerLink="/Projects">Projects</a>
+    <a class="hvr-grow" href="About">About</a>
+    <a class="hvr-grow" href="mailto: Isaac_Michael_Craig@hotmail.com"><span class="glyphicon glyphicon-envelope icon"></span> Email</a>
+    <a class="hvr-grow" href="https://www.linkedin.com/in/isaac-craig" rel="noopener noreferrer" target="_blank"><span><img src="assets\img\LI-In-Bug.png" width="25" height="25"/></span>LinkedIn</a>
+    <a class="hvr-grow" href="https://github.com/Icemaian" rel="noopener noreferrer" target="_blank"><span><img src="assets\img\GitHub-Mark-Light-64px.png" width="25" height="25"/></span>Github</a>
+  </nav>
+
+<main [@routeAnimations]="prepareRoute(outlet)" class="content">
+  <router-outlet #outlet="outlet"></router-outlet>
+</main>

@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-image: url(src\assets\img\Background_image.jpeg);
+}
+
+main {
+    position: fixed;
+    height: 97.5%;
+    width: 91%;
+    top: 1.5%;
+    left: 8%;
+    text-align: center;
+}
