@@ -10,7 +10,7 @@ const routes: Routes = [
     { path: 'About', component: AboutComponent, data: {animation: 'About'}},
     { path: 'Projects', component: ProjectsComponent, data: {animation: 'Projects'}},
     { path: 'Resume', component: ResumeComponent, data: {animation: 'Resume'}},
-    { path: 'Intro', component: HomeComponent}
+    { path: 'Intro', component: HomeComponent, data: {animation: 'Home'}}
   ];
 
   

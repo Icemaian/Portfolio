@@ -10,7 +10,6 @@ import {slider} from 'src/app/route-animations';
 })
 export class AppComponent {
   title = 'IMCPortfolio';
-
   
   prepareRoute(outlet: RouterOutlet) {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
