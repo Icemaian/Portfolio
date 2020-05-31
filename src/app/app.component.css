@@ -21,13 +21,19 @@
   -webkit-transition-property: transform;
   transition-property: transform;  
 }
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active, .header a:hover{
+.hvr-grow:hover, .hvr-grow:focus, .header a:hover{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   background-color: #DD6E42;
   color: ivory;
 }
 
+.active a {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #DD6E42;
+  color: ivory;
+}
 
 /* Header background  */
 .header { 
