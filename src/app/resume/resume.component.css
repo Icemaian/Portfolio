@@ -1,0 +1,33 @@
+.content {
+    position: relative;
+    box-sizing: border-box;
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 85%;
+    height: 50%;  
+  }  
+  
+  .column {
+    float: left;
+    width: 75%;
+    padding: 2%;
+    color: white;
+    text-shadow:  2px 2px 5px black;
+    outline-style: solid;
+    outline-color: #A4B0BD;
+    
+     background-color: #212121;
+  }
+  
+  .
+ul {
+    list-style: none;
+}
+
+ li::before {
+    list-style: none;
+    color:  white;
+    font-weight: bold; /* If you want it to be bold */
+  display: inline-block; 
+}
