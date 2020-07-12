@@ -1,36 +1,31 @@
 <div class="content">
   <div class="row">
     <div class="column">
-      <h3>I typically work within these languages and databases:</h3>
-      <ul>
-        <li>Java</li>
-        <li>C++</li>
-        <li>Angular/Javascript</li>
-        <li>HTML/CSS</li>
-      </ul>
+      <div class = "chart">
+        <canvas 
+          baseChart
+          [datasets]="barChartData"
+          [labels]="barChartLabels"
+          [options]="barChartOptions"
+          [plugins]="barChartPlugins"
+          [legend]="barChartLegend"
+          [chartType]="barChartType"
+        >
+        </canvas>
+       </div>
+      
     </div>
   </div>
-
+  
   <div class="row">
     <div class="column">
-      <h3>I mainly have been using these development tools and work flows</h3>
+      <h1>Outside of development these are some of my most used software tools and soft skills</h1>
       <ul>
-        <li>IBM's DB2</li>
-        <li>Postgres</li>
-        <li>Jenkins</li>
-        <li>Agile / Scrum</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <h3>Outside of development I use these software tools and soft skills</h3>
-      <ul>
-        <li>Office 365</li>
-        <li>Atlassian products Jira / Confluence</li>
-        <li>J-flow / project management</li>
-        <li>Daily break downs of technical data to non-technical individuals</li>
+        <li><a>Agile work flows</a></li>
+        <li><a>Office 365</a></li>
+        <li><a>Atlassian products Jira / Confluence</a></li>
+        <li><a>J-flow / project management</a></li>
+        <li><a>Cross department project explanations and joint implementations</a></li>
       </ul>
     </div>
   </div>

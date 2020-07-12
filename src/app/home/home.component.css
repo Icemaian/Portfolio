@@ -13,21 +13,37 @@
 .column {
   float: left;
   width: 33.3%;
-  padding: 0 8px;
+  padding-right: 0.1%;
+  font-size: 16px;
+  outline-style: solid;
+  outline-style: solid;
+  outline-color: #A4B0BD;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #212121;
-  outline-style: solid;
-  outline-color: #A4B0BD;
   color: white;
   text-shadow:  2px 2px 5px black;
 }
 
 .topics {
-  margin-top: 5%;
   color: white;
+  align-content: center;
+  padding: 2%;
   text-shadow:  2px 2px 5px black;
+  outline-style: solid;
+  outline-color: #A4B0BD;
 }
 
+.title {
+  font-size: 20px;
+}
+
+.topic {
+  padding-top: 2%;
+}
+
+h2 {
+  text-decoration: underline;
+}

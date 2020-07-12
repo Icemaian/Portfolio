@@ -1,0 +1,45 @@
+
+.content {
+    position: static;
+    box-sizing: border-box;
+    align-content: center;
+    margin-top: 7%;
+    margin-left: 25%;
+    height: 65%;  
+    width: 50%;
+    outline-style: solid;
+    outline-color: #A4B0BD;
+  }
+  
+  
+  .column {
+    box-sizing: border-box;
+    position: relative;
+    padding-right: 5%;
+    height: 100%;
+    width: 33.3%;
+    font-size: 16px;
+    outline-style: solid;
+    outline-color: #A4B0BD;
+    background-color: #212121;
+    color: white;
+    align-content: center;
+    padding: 2%;
+    text-shadow:  2px 2px 5px black;
+  }
+
+  .row{  
+    Height: 100%;
+    outline-style: solid;
+  }
+
+  .title {
+    padding-bottom: 5%;
+    height: 40%;
+    font-size: 20px;
+  }
+
+  h2 {
+    text-decoration: underline;
+    padding-bottom: 5%;
+  }

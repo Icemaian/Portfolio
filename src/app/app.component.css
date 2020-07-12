@@ -28,7 +28,10 @@
   color: ivory;
 }
 
-.active a {
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link  {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   background-color: #DD6E42;
@@ -38,12 +41,12 @@
 /* Header background  */
 .header { 
   position: fixed;
-  width: 6.5%;
+  width: 7%;
   height: 98%;
   top: 1%;
   left: 0.5%;
   right: 0.5%;
-  align-content: center;
+  align-content: flex-start ;
   box-shadow: 2px 2px;
   outline-style: solid;
   outline-color: #A4B0BD;
@@ -57,6 +60,6 @@
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 /************************************************************************/
