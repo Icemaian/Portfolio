@@ -48,7 +48,7 @@ h2 {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1300-x) {
+@media screen and (max-width: 1300px) {
   .content {
     position: relative;
     box-sizing: border-box;
