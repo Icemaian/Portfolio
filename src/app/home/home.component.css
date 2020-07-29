@@ -47,3 +47,74 @@
 h2 {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1300-x) {
+  .content {
+    position: relative;
+    box-sizing: border-box;
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 14%;
+    width: 85%;
+    height: 50%;  
+  }
+  
+  .column {
+    width: 25%;
+    padding-right: 0.1%;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h2 {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  .content {
+    margin-top: 2.5%;
+    margin-left: 14%;
+    width: 100%;
+  }
+  
+  .column {
+    width: 35%;
+    padding-right: 0.1%;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 1088px) {
+  h2 {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .content {
+    margin-top: 0.5%;
+    margin-left: 14%;
+    width: 100%;
+  }
+  
+  .column {
+    width: 35%;
+    padding-right: 0.1%;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 10px;
+  }
+}

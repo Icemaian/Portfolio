@@ -1,38 +1,85 @@
 .content {
-    position: relative;
-    box-sizing: border-box;
-    align-content: center;
-    margin-top: 2.5%;
-    margin-left: 20%;
-    width: 85%;
-    height: 50%;  
-  }  
-  
-  .column {
-    float: left;
-    width: 70%;
-    padding: 2%;
-    color: white;
-    text-shadow:  2px 2px 5px black;
-    outline-style: solid;
-    outline-color: #A4B0BD;
-    background-color: #212121;
-  }
-  
+  position: relative;
+  box-sizing: border-box;
+  align-content: center;
+  margin-top: 2.5%;
+  margin-left: 20%;
+  width: 85%;
+  height: 50%;
+}
+
+.column {
+  float: left;
+  width: 70%;
+  padding: 2%;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  outline-style: solid;
+  outline-color: #a4b0bd;
+  background-color: #212121;
+}
+
 .ul {
-    list-style: none;
+  list-style: none;
 }
 
- li::before {
-    list-style: none;
-    color:  white;
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; 
-   
+li::before {
+  list-style: none;
+  color: white;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block;
 }
-
 
 a {
-  color:  white;
+  color: white;
   font-size: 18px;
 }
+
+@media screen and (max-width: 1536PX) {
+  .content {
+    margin-top: 2%;
+    margin-left: 22%;
+    width: 80%;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .content {
+    margin-top: 2%;
+    margin-left: 23%;
+    width: 80%;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1088PX) {
+  .content {
+    margin-top: 1%;
+    margin-left: 25%;
+    width: 70%;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+}
+

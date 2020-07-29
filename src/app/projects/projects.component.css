@@ -4,9 +4,9 @@
     box-sizing: border-box;
     align-content: center;
     margin-top: 7%;
-    margin-left: 25%;
+    margin-left: 20%;
     height: 65%;  
-    width: 50%;
+    width: 60%;
     outline-style: solid;
     outline-color: #A4B0BD;
   }
@@ -42,4 +42,54 @@
   h2 {
     text-decoration: underline;
     padding-bottom: 5%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  
+  @media screen and (max-width: 1280PX) {
+    .content {
+      margin-top: 7%;
+      margin-left: 17%;
+      width: 65%;
+    }
+    
+    .title {
+      padding-bottom: 10%;
+      height: 40%;
+      font-size: 12px;
+    }
+  
+    h2 {
+      font-size: 18px;
+      padding-bottom: 5%;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 1088PX) {
+    .content {
+      margin-top: 7%;
+      margin-left: 17%;
+      width: 65%;
+    }
+    
+    .title {
+      padding-bottom: 10%;
+      height: 40%;
+      font-size: 12px;
+    }
+  
+    h2 {
+      font-size: 18px;
+      padding-bottom: 5%;
+    }
+
+    p {
+      font-size: 12px;
+    }
   }
