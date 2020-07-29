@@ -11,7 +11,7 @@ const routes: Routes = [
     { path: 'Projects', component: ProjectsComponent, data: {animation: 'Projects'}},
     { path: 'Resume', component: ResumeComponent, data: {animation: 'Resume'}},
     { path: 'Intro', component: HomeComponent, data: {animation: 'Home'}},
-    { path: '', redirectTo: 'Intro', pathMatch: 'full'},
+    { path: '', component: HomeComponent},
     { path: '**', redirectTo: 'Intro'}
   ];
 
