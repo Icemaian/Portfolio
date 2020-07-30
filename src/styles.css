@@ -4,6 +4,8 @@
 html { 
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
     background-image: url(src\assets\img\Background_image.jpeg);
 }
 
